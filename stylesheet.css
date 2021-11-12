@@ -1,8 +1,12 @@
 .calculator{
     text-align:center;
     margin:0 auto;
-    padding-top:200px;
+    margin-top: 50px;
     width:400px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 1px 1px;
+
 }
 .calculator-screen{
     width:100%;
@@ -14,13 +18,24 @@
     border: none;
     padding: 0 20px;
     box-sizing: border-box;
+    border: 1px solid silver; 
+}
+.calculator-title{
+    width:100%;
+    background-color: maroon;  
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+    
 }
 .calculator-view{
     width:100%;
-    background-color: #252540;
+    background-color: #4a4aac;
     color: lightgray;
     text-align: right;
-    border-top:1px solid gray;
+    
     padding: 0 20px;
     box-sizing: border-box;
     height: 30px;
